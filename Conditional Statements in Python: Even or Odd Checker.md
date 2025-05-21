@@ -1,34 +1,26 @@
-# DATA TYPES READ AND PRINT A STRING IN PYTHON
+# Conditional Statements in Python: Even or Odd Checker
 
-## AIM:
-To write a python program to read a string from the user and thn print it 
+## 🎯 Aim
+To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
-## ALGORITHM:
+## 🧠 Algorithm
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
 
-1)Start with a list of numbers.
-
-2)Assume the first number in the list is the largest you've found so far.
-
-3)Go through the rest of the numbers in the list, one by one.
-
-4)For each number, compare it to the "largest found so far."
-
-5)If the current number is greater than the "largest found so far," then update "largest found so far" to this new number.
-
-6)After checking all numbers, the "largest found so far" is the largest number in the list.
-
-7)End.
-
-
-# PROGRAM:
+## 🧾 Program
 ```
-a=int(input())
-b=int(input())
-c=int(input())
-print(a+b*c-a/b)
-```
-# OUTPUT:
-![image](https://github.com/user-attachments/assets/f2aac572-24c7-475f-a09e-6d4ab7580d02)
+num=int(input())
+if(num%2==0):
+      print("Even")
+else:
+    print("Odd")
+```    
+## Output
+![image](https://github.com/user-attachments/assets/2d1612a7-8a61-4033-88cb-5fcbab407c5c)
 
-# RESULT:
-The expected output is achieved.
+## Result
+Thus the program has been successfully executed
