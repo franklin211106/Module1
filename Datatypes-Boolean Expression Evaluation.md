@@ -1,21 +1,23 @@
+# ADDING COMPLEX NUMBER USING PYTHON 
+# AIM:
+To wirte a python program to add complex number.
+# Algorithm:
+ 1) start
+ 2) read complex number1=2+3j
+ 3) read complex number2=4+7j
+ 4) add real and imaginary part
+ 5) output and end
+# program
+```
+c1=2+3j
+c2=4+7j
+c3=c1+c2
+print(c3)
+```
+# ouput
+![image](https://github.com/user-attachments/assets/2b18683b-3f3e-4fed-8682-ccadf51a13c2)
 
-# Ex 1:Datatypes-Boolean Expression Evaluation in Python
+# Result:
+Thus obtained desired output.
 
-## 🎯 Aim
-To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
 
-## 🧠 Algorithm
-1. Set variable `a` to the result of the expression `0 == True`.
-2. Set variable `b` to the result of the expression `False == False`.
-3. Set variable `c` to the result of the expression `True + True`.
-4. Set variable `d` to the result of the expression `False + 9`.
-5. Print the value of `a` with the label "a is".
-6. Print the value of `b` with the label "b is".
-7. Print the value of `c` with the label "c:".
-8. Print the value of `d` with the label "d:".
-
-## 💻 Program
-Add Code here
-
-## Output
-## Result
